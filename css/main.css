@@ -1,0 +1,59 @@
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+
+#header{
+	width:100%;
+	background-color:yellow;
+}
+
+#main_head{
+	padding:2%;
+	font-family:helvetica;
+	font-size:80px;
+	font-weight:bold;
+	color:blue;
+}
+
+#q_head{
+	padding:2%;
+	font-family:helvetica;
+	font-size:40px;
+	font-weight:bold;
+	color:brown;
+}
+
+#nav{
+	background-color:silver;
+}
+
+#footer{
+	background-color:black;
+	font-family:helvetica;
+	font-size:small;
+	color:red;
+}
+
+#home{
+	padding:5%;
+	display:inline;
+	font-family:helvetica;
+	font-size:25px;
+	color:red;
+}
+
+#recipes{
+	padding:5%;
+	display:inline;
+	font-family:helvetica;
+	font-size:25px;
+	color:red;
+}
+
+#contact{
+	padding:5%;
+	display:inline;
+	font-family:helvetica;
+	font-size:25px;
+	color:red;
+}
