@@ -1,36 +1,83 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
+	font-size:100%;
+}
+
+#site{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	max-width:1100px;
+}
+
+#body{
+	background-color:orange;
 }
 
 #header{
+	display:inline-block;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
 	width:100%;
-	background-color:yellow;
+	background-image:url(/images/pizza);
 }
 
 #main_head{
-	padding:2%;
+	margin-top:4%;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	padding-top:4%;
+	padding-bottom:4%;
+	background-color:green;
 	font-family:helvetica;
-	font-size:80px;
+	font-size:5em;
 	font-weight:bold;
 	color:blue;
+	text-align:center;
+	border-radius:80px 50px;
+	border:20px double;
+	border-color:black;
+	-webkit-transform:rotate(-3deg);
 }
 
 #q_head{
+	margin-top:-3%;
+	max-width:40%;
+	margin-left:15%;
+	margin-right:auto;
 	padding:2%;
+	background-color:silver;
 	font-family:helvetica;
-	font-size:40px;
+	font-size:2.5em;
 	font-weight:bold;
 	color:brown;
+	text-align:center;
+	border-radius:60px;
+	border:10px solid;
+	border-color:gold;
+	-webkit-transform:rotate(1.5deg);
 }
 
 #nav{
-	background-color:silver;
+	max-width:60%;
+	min-width:400px;
+	margin-left:20%;
+	margin-right:auto;
+	margin-top:3%;
+	padding:1%;
+	background-color:white;
+	border-radius:60px;
+	border:10px solid;
+	border-color:grey;
+	text-align:center;
 }
 
 #footer{
 	background-color:black;
 	font-family:helvetica;
-	font-size:small;
+	font-size:0.8em;
 	color:red;
 }
 
@@ -38,7 +85,7 @@ header, section, footer, aside, nav, article, hgroup{
 	padding:5%;
 	display:inline;
 	font-family:helvetica;
-	font-size:25px;
+	font-size:1.6em;
 	color:red;
 }
 
@@ -46,7 +93,7 @@ header, section, footer, aside, nav, article, hgroup{
 	padding:5%;
 	display:inline;
 	font-family:helvetica;
-	font-size:25px;
+	font-size:1.6em;
 	color:red;
 }
 
@@ -54,6 +101,6 @@ header, section, footer, aside, nav, article, hgroup{
 	padding:5%;
 	display:inline;
 	font-family:helvetica;
-	font-size:25px;
+	font-size:1.6em;
 	color:red;
 }
