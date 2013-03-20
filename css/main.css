@@ -8,14 +8,12 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-right:auto;
 	width:100%;
 	max-width:1100px;
+	height:1300px;
 }
 
 #body{
-	background: url(images/pizza.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-color:white;
+	height:1300px;
 }
 
 #header{
@@ -24,7 +22,9 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	/*background:url(images/pizza.jpg) no-repeat center center;*/
+	background-color:gold;
+	background:url(../images/food.jpg) top center no-repeat;
+	-webkit-background-size:100% 100%;
 }
 
 #main_head{
@@ -38,22 +38,23 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:helvetica;
 	font-size:5em;
 	font-weight:bold;
-	color:lightblue;
+	color:brown;
 	text-align:center;
 	border-radius:120px;
 	border:20px double;
-	border-color:lightblue;
+	border-color:brown;
+	text-shadow:2px 2px 2px black;
 	-webkit-transform:rotate(-3deg);
-	-webkit-box-shadow:10px 10px 20px grey;
+	-webkit-box-shadow:10px 10px 20px black;
 }
 
 #q_head{
-	margin-top:-3%;
+	margin-top:-5%;
 	max-width:40%;
 	margin-left:15%;
 	margin-right:auto;
 	padding:2%;
-	background-color:lightblue;
+	background-color:brown;
 	font-family:helvetica;
 	font-size:2.5em;
 	font-weight:bold;
@@ -62,30 +63,56 @@ header, section, footer, aside, nav, article, hgroup{
 	border-radius:60px;
 	border:10px solid;
 	border-color:white;
+	text-shadow:2px 2px 2px black;
 	-webkit-transform:rotate(1.5deg);
-	-webkit-box-shadow:7px 7px 20px grey;
+	-webkit-box-shadow:7px 7px 20px black;
 }
 
 #nav{
+	display:inline-block;
+	float:left;
 	max-width:60%;
 	min-width:400px;
 	margin-left:20%;
 	margin-right:auto;
-	margin-top:3%;
+	margin-top:-0.3%;
 	padding:1%;
 	background-color:white;
 	border-radius:60px;
 	border:10px solid;
-	border-color:lightblue;
+	border-color:grey;
 	text-align:center;
-	-webkit-box-shadow:7px 7px 20px grey;
+	text-shadow:2px 2px 2px black;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:7px 7px 20px black;
+}
+
+#nav_log{
+	display:inline-block;
+	float:left;
+	max-width:10%;
+	min-width:100px;
+	margin-left:-1.5%;
+	margin-right:auto;
+	margin-top:1%;
+	padding:1%;
+	background-color:white;
+	border-radius:60px;
+	border:10px solid;
+	border-color:brown;
+	text-align:center;
+	text-shadow:2px 2px 2px black;
+	-webkit-transform:rotate(5deg);
+	-webkit-box-shadow:7px 7px 20px black;
 }
 
 #footer{
 	background-color:white;
 	font-family:helvetica;
 	font-size:0.8em;
-	color:red;
+	color:brown;
+	text-shadow:1px 1px 1px black;
+	text-align:center;
 }
 
 #home{
@@ -109,5 +136,100 @@ header, section, footer, aside, nav, article, hgroup{
 	display:inline;
 	font-family:helvetica;
 	font-size:1.6em;
+	color:red;
+}
+
+#log{
+	padding:5%;
+	display:inline;
+	font-family:helvetica;
+	font-size:1.6em;
+	color:red;
+}
+
+#login{
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+	padding-top:4%;
+	padding-bottom:4%;
+	background-color:grey;
+	font-family:helvetica;
+	color:brown;
+	text-align:center;
+	border-radius:80px;
+	border:20px solid;
+	border-color:white;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:10px 10px 20px black;
+}
+
+#main_art{
+	
+}
+
+#login{
+	
+}
+
+#h1_log{
+	
+}
+
+#inputs{
+	
+}
+
+#uname{
+	
+}
+
+#pword{
+	
+}
+
+#actions{
+	padding:1%;
+	display:inline-block;
+	font-family:helvetica;
+	font-size:1.2em;
+	color:red;
+	text-shadow:2px 2px 2px black;
+}
+
+#submit{
+	float:left;
+	display:inline-block;
+	margin-top:1%;
+	margin-left:10%;
+	margin-right:auto;
+	width:25%;
+	background-color:white;
+	color:brown;
+	text-align:center;
+	border-radius:18px;
+	border:5px solid brown;
+	padding:1%;
+	display:inline-block;
+	font-family:helvetica;
+	text-shadow:2px 2px 2px black;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:2px 2px 5px black;
+}
+
+#forgot{
+	margin-left:2%;
+	display:inline;
+	font-family:helvetica;
+	font-size:1.2em;
+	color:red;
+}
+
+#reg{
+	margin-left:2%;
+	display:inline;
+	font-family:helvetica;
+	font-size:1.2em;
 	color:red;
 }
