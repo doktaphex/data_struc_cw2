@@ -35,15 +35,15 @@ header, section, footer, aside, nav, article, hgroup{
 	padding-top:4%;
 	padding-bottom:4%;
 	background-color:white;
-	font-family:helvetica;
-	font-size:5em;
+	font-family:HamburgerHeavenRegular;
+	font-size:6em;
 	font-weight:bold;
 	color:brown;
 	text-align:center;
 	border-radius:120px;
 	border:20px double;
 	border-color:brown;
-	text-shadow:2px 2px 2px black;
+	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
 }
@@ -55,15 +55,15 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-right:auto;
 	padding:2%;
 	background-color:brown;
-	font-family:helvetica;
-	font-size:2.5em;
+	font-family:HamburgerHeavenRegular;
+	font-size:3em;
 	font-weight:bold;
 	color:white;
 	text-align:center;
 	border-radius:60px;
 	border:10px solid;
 	border-color:white;
-	text-shadow:2px 2px 2px black;
+	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(1.5deg);
 	-webkit-box-shadow:7px 7px 20px black;
 }
@@ -82,9 +82,10 @@ header, section, footer, aside, nav, article, hgroup{
 	border:10px solid;
 	border-color:grey;
 	text-align:center;
-	text-shadow:2px 2px 2px black;
+	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:7px 7px 20px black;
+	-webkit-transition:text-shadow .5s;
 }
 
 #nav_log{
@@ -101,14 +102,14 @@ header, section, footer, aside, nav, article, hgroup{
 	border:10px solid;
 	border-color:brown;
 	text-align:center;
-	text-shadow:2px 2px 2px black;
+	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(5deg);
 	-webkit-box-shadow:7px 7px 20px black;
 }
 
 #footer{
 	background-color:white;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:0.8em;
 	color:brown;
 	text-shadow:1px 1px 1px black;
@@ -118,33 +119,49 @@ header, section, footer, aside, nav, article, hgroup{
 #home{
 	padding:5%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	color:red;
+}
+
+#home:hover{
+	text-shadow:1px 1px 3px red;
 }
 
 #recipes{
 	padding:5%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	color:red;
+}
+
+#recipes:hover{
+	text-shadow:1px 1px 3px red;
 }
 
 #contact{
 	padding:5%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	color:red;
+}
+
+#contact:hover{
+	text-shadow:1px 1px 3px red;
 }
 
 #log{
 	padding:5%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	color:red;
+}
+
+#log:hover{
+	text-shadow:1px 1px 3px red;
 }
 
 #login{
@@ -155,18 +172,18 @@ header, section, footer, aside, nav, article, hgroup{
 	padding-top:4%;
 	padding-bottom:4%;
 	background-color:grey;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	color:brown;
 	text-align:center;
-	border-radius:80px;
-	border:20px solid;
+	border-radius:150px;
+	border:20px double;
 	border-color:white;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
 }
 
 #main_art{
-	
+	margin-top:-2%;
 }
 
 #login{
@@ -174,7 +191,13 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #h1_log{
-	
+	padding:1%;
+	display:inline;
+	font-family:HamburgerHeavenRegular;
+	font-size:4em;
+	font-weight:bold;
+	color:brown;
+	text-shadow:2px 2px 2px black;
 }
 
 #inputs{
@@ -182,20 +205,48 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #uname{
-	
+	float:left;
+	display:inline-block;
+	margin-left:10%;
+	margin-right:auto;
+	margin-bottom:2%;
+	width:30%;
+	background-color:white;
+	color:brown;
+	border-radius:25px;
+	border:7px solid brown;
+	padding:1%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	-webkit-transform:rotate(5deg);
+	-webkit-box-shadow:2px 2px 5px black;
 }
 
 #pword{
-	
+	float:left;
+	display:inline-block;
+	margin-left:-2%;
+	margin-right:auto;
+	margin-bottom:2%;
+	width:35%;
+	background-color:white;
+	color:brown;
+	border-radius:25px;
+	border:10px solid brown;
+	padding:1%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:2px 2px 5px black;
 }
 
 #actions{
 	padding:1%;
 	display:inline-block;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.2em;
 	color:red;
-	text-shadow:2px 2px 2px black;
+	text-shadow:1px 1px 1px black;
 }
 
 #submit{
@@ -211,25 +262,65 @@ header, section, footer, aside, nav, article, hgroup{
 	border-radius:18px;
 	border:5px solid brown;
 	padding:1%;
+	font-weight:bold;
 	display:inline-block;
-	font-family:helvetica;
-	text-shadow:2px 2px 2px black;
+	font-family:HamburgerHeavenRegular;
+	text-shadow:1px 1px 1px black;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+}
+
+#submit:hover{
+	-webkit-box-shadow:2px 2px 10px red;
+	text-shadow:1px 1px 3px red;
 }
 
 #forgot{
 	margin-left:2%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.2em;
-	color:red;
+	color:brown;
+	-webkit-transition:text-shadow .5s;
+}
+
+#forgot:hover{
+	text-shadow:1px 1px 3px red;
 }
 
 #reg{
 	margin-left:2%;
 	display:inline;
-	font-family:helvetica;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.2em;
-	color:red;
+	color:brown;-webkit-transition:text-shadow .5s;
+}
+
+#reg:hover{
+	text-shadow:1px 1px 3px red;
+}
+
+@font-face {
+    font-family: 'HamburgerHeavenRegular';
+    src: url('../fonts/hamburger_heaven/HAMBH___-webfont.eot');
+    src: url('../fonts/hamburger_heaven/HAMBH___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hamburger_heaven/HAMBH___-webfont.woff') format('woff'),
+         url('../fonts/hamburger_heaven/HAMBH___-webfont.ttf') format('truetype'),
+         url('../fonts/hamburger_heaven/HAMBH___-webfont.svg#HamburgerHeavenRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AirstreamRegular';
+    src: url('../fonts/airstream/Airstream-webfont.eot');
+    src: url('../fonts/airstream/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/airstream/Airstream-webfont.woff') format('woff'),
+         url('../fonts/airstream/Airstream-webfont.ttf') format('truetype'),
+         url('../fonts/airstream/Airstream-webfont.svg#AirstreamRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
