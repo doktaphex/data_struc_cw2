@@ -11,7 +11,11 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #body{
-	background-color:orange;
+	background: url(images/pizza.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #header{
@@ -20,7 +24,7 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	background-image:url(/images/pizza);
+	/*background:url(images/pizza.jpg) no-repeat center center;*/
 }
 
 #main_head{
@@ -30,16 +34,17 @@ header, section, footer, aside, nav, article, hgroup{
 	width:80%;
 	padding-top:4%;
 	padding-bottom:4%;
-	background-color:green;
+	background-color:white;
 	font-family:helvetica;
 	font-size:5em;
 	font-weight:bold;
-	color:blue;
+	color:lightblue;
 	text-align:center;
-	border-radius:80px 50px;
+	border-radius:120px;
 	border:20px double;
-	border-color:black;
+	border-color:lightblue;
 	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:10px 10px 20px grey;
 }
 
 #q_head{
@@ -48,16 +53,17 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:15%;
 	margin-right:auto;
 	padding:2%;
-	background-color:silver;
+	background-color:lightblue;
 	font-family:helvetica;
 	font-size:2.5em;
 	font-weight:bold;
-	color:brown;
+	color:white;
 	text-align:center;
 	border-radius:60px;
 	border:10px solid;
-	border-color:gold;
+	border-color:white;
 	-webkit-transform:rotate(1.5deg);
+	-webkit-box-shadow:7px 7px 20px grey;
 }
 
 #nav{
@@ -70,12 +76,13 @@ header, section, footer, aside, nav, article, hgroup{
 	background-color:white;
 	border-radius:60px;
 	border:10px solid;
-	border-color:grey;
+	border-color:lightblue;
 	text-align:center;
+	-webkit-box-shadow:7px 7px 20px grey;
 }
 
 #footer{
-	background-color:black;
+	background-color:white;
 	font-family:helvetica;
 	font-size:0.8em;
 	color:red;
