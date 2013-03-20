@@ -9,7 +9,11 @@
 	padding: 0;
 	margin: 0;
 }	
-	a:link, a:visited {color: #d7df23; text-decoration: none;}
+	a:link {color: lightblue; text-decoration: none;}
 	
-	a:hover, a:active {color: #d7df23; text-decoration: none;}
+	a:visited {color: lightblue; text-decoration: none;}
+	
+	a:hover {color: lightblue; text-decoration: none;}
+	
+	a:active {color: lightblue; text-decoration: none;}
 	
