@@ -31,7 +31,8 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-top:4%;
 	margin-left:auto;
 	margin-right:auto;
-	width:80%;
+	max-width:80%;
+	min-width:500px;
 	padding-top:4%;
 	padding-bottom:4%;
 	background-color:white;
@@ -51,6 +52,7 @@ header, section, footer, aside, nav, article, hgroup{
 #q_head{
 	margin-top:-5%;
 	max-width:40%;
+	min-width:250px;
 	margin-left:15%;
 	margin-right:auto;
 	padding:2%;
@@ -75,7 +77,7 @@ header, section, footer, aside, nav, article, hgroup{
 	min-width:400px;
 	margin-left:20%;
 	margin-right:auto;
-	margin-top:-0.3%;
+	margin-top:-1%;
 	padding:1%;
 	background-color:white;
 	border-radius:60px;
@@ -94,7 +96,6 @@ header, section, footer, aside, nav, article, hgroup{
 	min-width:100px;
 	margin-left:-1.5%;
 	margin-right:auto;
-	margin-top:1%;
 	padding:1%;
 	background-color:white;
 	border-radius:60px;
@@ -168,6 +169,26 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:auto;
 	margin-right:auto;
 	width:40%;
+	min-width:200px;
+	padding-top:4%;
+	padding-bottom:4%;
+	background-color:grey;
+	font-family:HamburgerHeavenRegular;
+	color:brown;
+	text-align:center;
+	border-radius:150px;
+	border:20px double;
+	border-color:white;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:10px 10px 20px black;
+}
+
+#contact_form{
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+	min-width:200px;
 	padding-top:4%;
 	padding-bottom:4%;
 	background-color:grey;
@@ -185,10 +206,6 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-top:-2%;
 }
 
-#login{
-	
-}
-
 #h1_log{
 	padding:1%;
 	display:inline;
@@ -199,8 +216,14 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px black;
 }
 
-#inputs{
-	
+#h1_con{
+	padding:1%;
+	display:inline;
+	font-family:HamburgerHeavenRegular;
+	font-size:4em;
+	font-weight:bold;
+	color:brown;
+	text-shadow:2px 2px 2px black;
 }
 
 #uname{
@@ -239,12 +262,58 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-box-shadow:2px 2px 5px black;
 }
 
-#actions{
+#email{
+	float:left;
+	display:inline-block;
+	margin-left:-2%;
+	margin-right:auto;
+	margin-bottom:2%;
+	width:35%;
+	background-color:white;
+	color:brown;
+	border-radius:25px;
+	border:10px solid brown;
 	padding:1%;
 	display:inline-block;
 	font-family:HamburgerHeavenRegular;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:2px 2px 5px black;
+}
+
+#message{
+	display:inline-block;
+	margin-left:-2%;
+	margin-right:auto;
+	margin-bottom:2%;
+	width:70%;
+	min-height:100px;
+	height:70%;
+	background-color:white;
+	color:brown;
+	border-radius:35px;
+	border:7px solid brown;
+	padding:1%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	-webkit-transform:rotate(2deg);
+	-webkit-box-shadow:2px 2px 5px black;
+}
+
+#actions{
+	padding:1%;
+	width:70%;
+	display:inline;
+	font-family:HamburgerHeavenRegular;
 	font-size:1.2em;
-	color:red;
+	text-shadow:1px 1px 1px black;
+}
+
+#message_actions{
+	padding:1%;
+	width:40%;
+	display:inline;
+	font-family:HamburgerHeavenRegular;
+	font-size:1.2em;
 	text-shadow:1px 1px 1px black;
 }
 
@@ -255,6 +324,7 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:10%;
 	margin-right:auto;
 	width:25%;
+	min-width:80px;
 	background-color:white;
 	color:brown;
 	text-align:center;
@@ -262,7 +332,6 @@ header, section, footer, aside, nav, article, hgroup{
 	border:5px solid brown;
 	padding:1%;
 	font-weight:bold;
-	display:inline-block;
 	font-family:HamburgerHeavenRegular;
 	text-shadow:1px 1px 1px black;
 	-webkit-transform:rotate(-3deg);
@@ -271,6 +340,33 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #submit:hover{
+	-webkit-box-shadow:2px 2px 10px red;
+	text-shadow:1px 1px 3px red;
+}
+
+#submit_message{
+	float:left;
+	display:inline-block;
+	margin-top:-15%;
+	margin-left:20%;
+	margin-right:auto;
+	width:70%;
+	min-width:80px;
+	background-color:white;
+	color:brown;
+	text-align:center;
+	border-radius:18px;
+	border:5px solid brown;
+	padding:1%;
+	font-weight:bold;
+	font-family:HamburgerHeavenRegular;
+	text-shadow:1px 1px 1px black;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:2px 2px 5px black;
+	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+}
+
+#submit_message:hover{
 	-webkit-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
