@@ -85,7 +85,6 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:7px 7px 20px black;
-	-webkit-transition:text-shadow .5s;
 }
 
 #nav_log{
@@ -121,7 +120,7 @@ header, section, footer, aside, nav, article, hgroup{
 	display:inline;
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
-	color:red;
+	-webkit-transition:text-shadow .5s;
 }
 
 #home:hover{
@@ -133,7 +132,7 @@ header, section, footer, aside, nav, article, hgroup{
 	display:inline;
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
-	color:red;
+	-webkit-transition:text-shadow .5s;
 }
 
 #recipes:hover{
@@ -145,7 +144,7 @@ header, section, footer, aside, nav, article, hgroup{
 	display:inline;
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
-	color:red;
+	-webkit-transition:text-shadow .5s;
 }
 
 #contact:hover{
@@ -157,7 +156,7 @@ header, section, footer, aside, nav, article, hgroup{
 	display:inline;
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
-	color:red;
+	-webkit-transition:text-shadow .5s;
 }
 
 #log:hover{
