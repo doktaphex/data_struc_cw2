@@ -202,8 +202,25 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-box-shadow:10px 10px 20px black;
 }
 
+#search_form{
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	min-width:200px;
+	padding-top:4%;
+	padding-bottom:4%;
+	font-family:HamburgerHeavenRegular;
+	color:brown;
+	text-align:center;
+	-webkit-transform:rotate(-3deg);
+}
+
 #main_art{
+	display:block;
 	margin-top:-2%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #h1_log{
@@ -238,7 +255,6 @@ header, section, footer, aside, nav, article, hgroup{
 	border-radius:25px;
 	border:7px solid brown;
 	padding:1%;
-	display:inline-block;
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(5deg);
 	-webkit-box-shadow:2px 2px 5px black;
@@ -256,7 +272,6 @@ header, section, footer, aside, nav, article, hgroup{
 	border-radius:25px;
 	border:10px solid brown;
 	padding:1%;
-	display:inline-block;
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
@@ -299,6 +314,24 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-box-shadow:2px 2px 5px black;
 }
 
+#search{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2%;
+	margin-top:3%;
+	width:40%;
+	background-color:white;
+	color:brown;
+	border-radius:25px;
+	border:7px solid brown;
+	padding:1%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	-webkit-transform:rotate(1deg);
+	-webkit-box-shadow:2px 2px 5px black;
+}
+
 #actions{
 	padding:1%;
 	width:70%;
@@ -311,6 +344,15 @@ header, section, footer, aside, nav, article, hgroup{
 #message_actions{
 	padding:1%;
 	width:40%;
+	display:inline;
+	font-family:HamburgerHeavenRegular;
+	font-size:1.2em;
+	text-shadow:1px 1px 1px black;
+}
+
+#search_actions{
+	padding:1%;
+	width:70%;
 	display:inline;
 	font-family:HamburgerHeavenRegular;
 	font-size:1.2em;
@@ -367,6 +409,33 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #submit_message:hover{
+	-webkit-box-shadow:2px 2px 10px red;
+	text-shadow:1px 1px 3px red;
+}
+
+#submit_search{
+	float:left;
+	display:inline-block;
+	margin-left:20%;
+	margin-left:auto;
+	margin-right:auto;
+	width:15%;
+	min-width:80px;
+	background-color:white;
+	color:brown;
+	text-align:center;
+	border-radius:18px;
+	border:5px solid brown;
+	padding:1%;
+	font-weight:bold;
+	font-family:HamburgerHeavenRegular;
+	text-shadow:1px 1px 1px black;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:2px 2px 5px black;
+	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+}
+
+#submit_search:hover{
 	-webkit-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
