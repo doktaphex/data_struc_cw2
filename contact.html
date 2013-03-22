@@ -2,66 +2,13 @@
 <html lang="en">
 <head>
     <meta charset=utf-8>
-        <script type="text/javascript" src="myscript.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
     <script>
     document.createElement('header');
     document.createElement('nav');
     document.createElement('article');
     document.createElement('footer');
     </script>
-    <script type="text/javascript">
-		<!--
-		function validateEmail()
-		{
-		 
-			var emailID = document.contact_Form.Email.value;
-			atpos = emailID.indexOf("@");
-			dotpos = emailID.lastIndexOf(".");
-			if (atpos < 1 || ( dotpos - atpos < 2 )) 
-			{
-				alert("Please enter valid email address")
-				document.contact_Form.Email.focus() ;
-				return false;
-			}
-			return(true);
-		}
-		//-->
-	</script>
-	
-	<script type="text/javascript">
-		<!--
-		// Form validation code
-		function validate()
-		{
-			if( document.contact_Form.Uname.value == "" )
-			{
-				alert( "Please provide your name!" );
-				document.contact_Form.Uname.focus() ;
-				return false;
-			}
-			if( document.contact_Form.Email.value == "" )
-			{
-				alert( "Please provide your Email!" );
-				document.contact_Form.Email.focus() ;
-				return false;
-			}else{
-				// Extra check for data format
-				var ret = validateEmail();
-				if(ret == false)
-				{
-					return false;
-				}
-			}
-			if( document.contact_Form.Message.value == "" )
-			{
-				alert( "Please provide your message!" );
-				document.contact_Form.Message.focus() ;
-				return false;
-			}
-			return(true);
-		}
-		//-->
-	</script>
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link href="css/main.css" type="text/css" rel="stylesheet" media="all">
     <title>Hungry Joe's</title>
@@ -83,6 +30,7 @@
         <nav id="nav_log">
             <ul>
                 <li id="log"><a href="login.html">log in</a></li>
+                <li id="log"><a href="register.html">register</a></li>
             </ul>
         </nav>
     </header>

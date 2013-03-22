@@ -96,7 +96,8 @@ header, section, footer, aside, nav, article, hgroup{
 	float:left;
 	max-width:10%;
 	min-width:100px;
-	margin-left:-1.5%;
+	margin-top:-2%;
+	margin-left:-1%;
 	margin-right:auto;
 	padding:1%;
 	background-color:white;
