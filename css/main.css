@@ -10,6 +10,7 @@ header, section, footer, aside, nav, article, hgroup{
 	max-width:1100px;
 	height:100%;
 	background-color:white;
+	-webkit-box-shadow:0px 0px 20px black;
 }
 
 #body{
@@ -415,6 +416,7 @@ header, section, footer, aside, nav, article, hgroup{
 
 #message{
 	display:inline-block;
+	padding:3%;
 	margin-left:-2%;
 	margin-right:auto;
 	margin-bottom:2%;
@@ -425,7 +427,6 @@ header, section, footer, aside, nav, article, hgroup{
 	color:brown;
 	border-radius:35px;
 	border:7px solid brown;
-	padding:1%;
 	display:inline-block;
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(2deg);
