@@ -2,7 +2,7 @@ function validate()
 {
     if( document.login_Form.Uname.value == "" )
     {
-        alert( "Please provide your name!" );
+        alert( "Please enter your name!" );
         document.login_Form.Uname.focus() ;
         return false;
     }

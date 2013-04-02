@@ -1,13 +1,27 @@
+<%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*" errorPage="error.jsp" %>
+<%
+
+/** Jsp membership area - username and password protected .
+ */
+//The next 4 statements are to prevent the browser from chaching and to avoid the back button //problem 
+   //Force caches to obtain a new copy of the page from the origin server
+   //response.setHeader("Cache-Control","no-cache"); 
+   //Direct caches not to store the page under any circumstance
+   //response.setHeader("Cache-Control","no-store"); 
+   //Causes the proxy cache to see the page as "stale"
+   //response.setDateHeader("Expires", 0); 
+   //HTTP 1.0 backward compatibility
+   //response.setHeader("Pragma","no-cache"); 
+
+   String validUser = (String)session.getAttribute("validUser");
+   String Email = (String)session.getAttribute("Email");
+%>
+
 <!DOCTYPE html>    
 <html lang="en">
 <head>
     <meta charset=utf-8>
-    <script>
-    document.createElement('header');
-    document.createElement('nav');
-    document.createElement('article');
-    document.createElement('footer');
-    </script>
+	<script type="text/javascript" src="js/forceHTML5IE.js"></script>
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link href="css/main.css" type="text/css" rel="stylesheet" media="all">
     <title>Hungry Joe's</title>
@@ -23,15 +37,15 @@
         </hgroup>
         <nav id="nav">
             <ul>
-                <li id="home"><a href="index.html">home</a></li>
-                <li id="recipes"><a href="recipes.html">recipes</a></li>
-                <li id="contact"><a href="contact.html">contact</a></li>
+                <li id="home"><a href="index.jsp">home</a></li>
+                <li id="recipes"><a href="recipes.jsp">recipes</a></li>
+                <li id="contact"><a href="contact.jsp">contact</a></li>
             </ul>
         </nav>
         <nav id="nav_log">
             <ul>
-                <li id="log"><a href="login.html">log in</a></li>
-                <li id="log"><a href="register.html">register</a></li>
+		<li id="log"><% if (validUser == null){%><a href="login.jsp">log in</a><%} else {%><a href="logout.jsp"><%= Email%></a><%}%></li><br>
+                <li id="log"><% if (validUser == null){%><a href="register.jsp">register</a><%} else {%><a href="logout.jsp">log out</a><%}%></li>
             </ul>
         </nav>
     </header>

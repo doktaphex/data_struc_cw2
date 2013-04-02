@@ -11,6 +11,9 @@ header, section, footer, aside, nav, article, hgroup{
 	height:100%;
 	background-color:white;
 	-webkit-box-shadow:0px 0px 20px black;
+	-moz-box-shadow:0px 0px 20px black;
+	-o-box-shadow:0px 0px 20px black;
+	-box-shadow:0px 0px 20px black;
 }
 
 #body{
@@ -27,6 +30,9 @@ header, section, footer, aside, nav, article, hgroup{
 	background-color:gold;
 	background:url(../images/food.jpg) top center no-repeat;
 	-webkit-background-size:100% 90%;
+	-moz-background-size:100% 90%;
+	-o-background-size:100% 90%;
+	-background-size:100% 90%;
 }
 
 #main_head{
@@ -49,6 +55,12 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
 }
 
 #q_head{
@@ -70,6 +82,12 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(1.5deg);
 	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(1.5deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(1.5deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(1.5deg);
+	-box-shadow:7px 7px 20px black;
 }
 
 #nav{
@@ -89,13 +107,19 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:7px 7px 20px black;
 }
 
 #nav_log{
 	display:inline-block;
 	float:left;
-	max-width:10%;
-	min-width:100px;
+	max-width:30%;
+	min-width:220px;
 	margin-top:-2%;
 	margin-left:-1%;
 	margin-right:auto;
@@ -108,6 +132,12 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:2px 2px 2px grey;
 	-webkit-transform:rotate(5deg);
 	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(5deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(5deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(5deg);
+	-box-shadow:7px 7px 20px black;
 }
 
 #welcome{
@@ -134,6 +164,9 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	-webkit-transition:text-shadow .5s;
+	-moz-transition:text-shadow .5s;
+	-o-transition:text-shadow .5s;
+	-transition:text-shadow .5s;
 }
 
 #home:hover{
@@ -146,6 +179,9 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	-webkit-transition:text-shadow .5s;
+	-moz-transition:text-shadow .5s;
+	-o-transition:text-shadow .5s;
+	-transition:text-shadow .5s;
 }
 
 #recipes:hover{
@@ -158,6 +194,9 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	-webkit-transition:text-shadow .5s;
+	-moz-transition:text-shadow .5s;
+	-o-transition:text-shadow .5s;
+	-transition:text-shadow .5s;
 }
 
 #contact:hover{
@@ -170,6 +209,9 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	font-size:1.6em;
 	-webkit-transition:text-shadow .5s;
+	-moz-transition:text-shadow .5s;
+	-o-transition:text-shadow .5s;
+	-transition:text-shadow .5s;
 }
 
 #log:hover{
@@ -193,6 +235,12 @@ header, section, footer, aside, nav, article, hgroup{
 	border-color:white;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
 }
 
 #contact_form{
@@ -212,6 +260,12 @@ header, section, footer, aside, nav, article, hgroup{
 	border-color:white;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
 }
 
 #reg_form{
@@ -231,6 +285,12 @@ header, section, footer, aside, nav, article, hgroup{
 	border-color:white;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
 }
 
 #forgot_form{
@@ -250,6 +310,12 @@ header, section, footer, aside, nav, article, hgroup{
 	border-color:white;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
 }
 
 #search_form{
@@ -264,6 +330,9 @@ header, section, footer, aside, nav, article, hgroup{
 	color:brown;
 	text-align:center;
 	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	-transform:rotate(-3deg);
 }
 
 #index_page{
@@ -278,6 +347,9 @@ header, section, footer, aside, nav, article, hgroup{
 	color:brown;
 	text-align:center;
 	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	-transform:rotate(-3deg);
 }
 
 #main_art{
@@ -363,6 +435,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(5deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(5deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(5deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(5deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #pword{
@@ -380,6 +458,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(-3deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #pword_reg{
@@ -396,6 +480,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(2deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(2deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(2deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(2deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #email{
@@ -414,6 +504,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(-3deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #message{
@@ -433,6 +529,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(2deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(2deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(2deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(2deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #search{
@@ -451,6 +553,12 @@ header, section, footer, aside, nav, article, hgroup{
 	font-family:HamburgerHeavenRegular;
 	-webkit-transform:rotate(1deg);
 	-webkit-box-shadow:2px 2px 5px black;
+	-moz-transform:rotate(1deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-o-transform:rotate(1deg);
+	-o-box-shadow:2px 2px 5px black;
+	-transform:rotate(1deg);
+	-box-shadow:2px 2px 5px black;
 }
 
 #actions{
@@ -500,10 +608,22 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
 	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-moz-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:2px 2px 5px black;
+	-o-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-transform:rotate(-3deg);
+	-box-shadow:2px 2px 5px black;
+	-transition:-webkit-box-shadow .5s, text-shadow .5s;
 }
 
 #submit:hover{
 	-webkit-box-shadow:2px 2px 10px red;
+	-moz-box-shadow:2px 2px 10px red;
+	-o-box-shadow:2px 2px 10px red;
+	-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
 
@@ -527,10 +647,22 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
 	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-moz-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:2px 2px 5px black;
+	-o-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-transform:rotate(-3deg);
+	-box-shadow:2px 2px 5px black;
+	-transition:-webkit-box-shadow .5s, text-shadow .5s;
 }
 
 #submit_message:hover{
 	-webkit-box-shadow:2px 2px 10px red;
+	-moz-box-shadow:2px 2px 10px red;
+	-o-box-shadow:2px 2px 10px red;
+	-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
 
@@ -553,10 +685,22 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:2px 2px 5px black;
 	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-moz-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:2px 2px 5px black;
+	-o-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-transform:rotate(-3deg);
+	-box-shadow:2px 2px 5px black;
+	-transition:-webkit-box-shadow .5s, text-shadow .5s;
 }
 
 #submit_search:hover{
 	-webkit-box-shadow:2px 2px 10px red;
+	-moz-box-shadow:2px 2px 10px red;
+	-o-box-shadow:2px 2px 10px red;
+	-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
 
@@ -580,10 +724,22 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-transform:rotate(5deg);
 	-webkit-box-shadow:2px 2px 5px black;
 	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-moz-transform:rotate(5deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-moz-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-o-transform:rotate(5deg);
+	-o-box-shadow:2px 2px 5px black;
+	-o-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-transform:rotate(5deg);
+	-box-shadow:2px 2px 5px black;
+	-transition:-webkit-box-shadow .5s, text-shadow .5s;
 }
 
 #submit_reg:hover{
 	-webkit-box-shadow:2px 2px 10px red;
+	-moz-box-shadow:2px 2px 10px red;
+	-o-box-shadow:2px 2px 10px red;
+	-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
 
@@ -606,10 +762,22 @@ header, section, footer, aside, nav, article, hgroup{
 	-webkit-transform:rotate(4deg);
 	-webkit-box-shadow:2px 2px 5px black;
 	-webkit-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-moz-transform:rotate(4deg);
+	-moz-box-shadow:2px 2px 5px black;
+	-moz-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-o-transform:rotate(4deg);
+	-o-box-shadow:2px 2px 5px black;
+	-o-transition:-webkit-box-shadow .5s, text-shadow .5s;
+	-transform:rotate(4deg);
+	-box-shadow:2px 2px 5px black;
+	-transition:-webkit-box-shadow .5s, text-shadow .5s;
 }
 
 #submit_forgot:hover{
 	-webkit-box-shadow:2px 2px 10px red;
+	-moz-box-shadow:2px 2px 10px red;
+	-o-box-shadow:2px 2px 10px red;
+	-box-shadow:2px 2px 10px red;
 	text-shadow:1px 1px 3px red;
 }
 
@@ -620,6 +788,9 @@ header, section, footer, aside, nav, article, hgroup{
 	font-size:1.2em;
 	color:brown;
 	-webkit-transition:text-shadow .5s;
+	-moz-transition:text-shadow .5s;
+	-o-transition:text-shadow .5s;
+	-transition:text-shadow .5s;
 }
 
 #forgot:hover{
