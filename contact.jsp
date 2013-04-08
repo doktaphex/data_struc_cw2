@@ -50,6 +50,9 @@
     </header>
     <article id="main_art">
     <form id="contact_form" action="ContactServlet" name="contact_Form" onsubmit="return(validate());">
+	<% if (validUser == null){%>
+	<h1 id="h1_con">Log in to send Hungry Joe's a message..!</h1>
+	<%} else {%>
             <h1 id="h1_con">Say Hello..!</h1>
             <fieldset id="inputs">
                 <input name="Uname" id="uname" type="text" placeholder="Name" autofocus maxlength="40">   
@@ -57,12 +60,13 @@
 		<textarea name="Message" id="message" placeholder="...What you gonna say..?" maxlength="200"></textarea>
             </fieldset>
             <fieldset id="message_actions">
-                <input type="submit" id="submit_message" value="Send">
+		<input type="submit" id="submit_message" value="Send">
             </fieldset>
-        </form>
+        </form> 
+    <%}%>
     </article>
     <footer id="footer">
-        &copy;2013 Jozef Kruszynski. Design by Doktaphex
+        &copy;2013 Jozef Kruszynski.
         <br>
         <a href="http://www.w3.org/html/logo/">
 	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="HTML5 Powered" title="HTML5 Powered">

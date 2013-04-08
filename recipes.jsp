@@ -51,17 +51,21 @@
     </header>
     <article id="main_art">
         <form id="search_form" name="search_Form" onsubmit="return(validate());">
-            <h1 id="h1_con">What You Wanna Eat..?</h1>
+            <% if (validUser == null){%>
+	<h1 id="h1_con">Log in to search Hungry Joe's..!</h1>
+	<%} else {%>
+	    <h1 id="h1_con">What You Wanna Eat..?</h1>
             <fieldset id="inputs">
                 <input name="Search" id="search" type="text" placeholder="Search" autofocus>   
             </fieldset>
             <fieldset id="search_actions">
                 <input type="submit" id="submit_search" value="Search">
             </fieldset>
+	    <%}%>
         </form>
     </article>
     <footer id="footer">
-        &copy;2013 Jozef Kruszynski. Design by Doktaphex
+        &copy;2013 Jozef Kruszynski.
         <br>
         <a href="http://www.w3.org/html/logo/">
 	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="HTML5 Powered" title="HTML5 Powered">
