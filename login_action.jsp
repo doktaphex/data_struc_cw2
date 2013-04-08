@@ -18,6 +18,7 @@ if (username != null && password != null && !username.trim().equals("") && !pass
 		PreparedStatement statement = con.prepareStatement(sqlQuery);
 		statement.setString(1,username);
 		statement.setString(2,password);
+		
 		ResultSet results = statement.executeQuery();
 		//if the resultSet has a record returned it means that there is such user with the //entered password
 		if(results.next()){
@@ -25,6 +26,7 @@ if (username != null && password != null && !username.trim().equals("") && !pass
 				//set the session attributes
 				session.setAttribute("validUser", results.getString("Uname"));
 				session.setAttribute("Email", results.getString("email"));
+				session.setAttribute("userType", results.getInt("userType"));
 		}else{
 			 //no record some login error. send to login error	 
 			 request.setAttribute("Error","Invalid login username or password");
