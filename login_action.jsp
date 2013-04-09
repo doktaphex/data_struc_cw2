@@ -29,7 +29,7 @@ if (username != null && password != null && !username.trim().equals("") && !pass
 				session.setAttribute("userType", results.getInt("userType"));
 		}else{
 			 //no record some login error. send to login error	 
-			 request.setAttribute("Error","Invalid login username or password");
+			 request.setAttribute("Error","You dummy..! You put the wrong username or password in the box..! Go on now, go back and try again..!");
 			 rd = request.getRequestDispatcher("error.jsp");
 		}
 }    
