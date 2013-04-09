@@ -16,15 +16,28 @@
    String Error = (String)request.getAttribute("Error");
 %>
 
- <!DOCTYPE>
-	  <HTML>
-      <HEAD>
-	   <meta http-equiv="Pragma" content="no-cache">
-      <meta http-equiv="Expires" content="-1">
-      <TITLE> Member Area</TITLE>
-      </HEAD>
-       <BODY "#FDF5E6">
-	   <h1><%= Error%></h1>
-     </BODY>
- </HTML>     
-   
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+	<script type="text/javascript" src="js/forceHTML5IE.js"></script>
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="all">
+    <title>Hungry Joe's</title>
+</head>
+
+<body id="error_site">
+ <!--<div id="error_site">-->
+ <h1 id="error_head">Golly bob darn it...<br>...Hungry Joe done gone messed somethin' up..!</h1>
+ <h2 id="er_head">...Let's see what happened now..!</h2>
+ <h3 id="e_head"><%= Error%></h3>
+ <footer id="e_footer">
+        &copy;2013 Jozef Kruszynski.
+        <br>
+        <a href="http://www.w3.org/html/logo/">
+	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="HTML5 Powered" title="HTML5 Powered">
+	</a>
+    </footer>
+<!-- </div>
+--></body>
+</html>
