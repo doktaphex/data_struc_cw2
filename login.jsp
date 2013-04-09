@@ -38,7 +38,7 @@
         </hgroup>
         <nav id="nav">
             <ul>
-                <li id="home"><a href="index.jsp">home</a></li>
+                <li id="home"><a href="display.jsp">home</a></li>
                 <li id="recipes"><a href="recipes.jsp">recipes</a></li>
                 <li id="contact"><a href="contact.jsp">contact</a></li>
             </ul>
@@ -51,7 +51,7 @@
         </nav>
     </header>
     <article id="main_art">
-    <form id="login" action="login_action.jsp" name="login_Form" onsubmit="return(validate());">
+    <form id="form" action="login_action.jsp" name="login_Form" onsubmit="return(validate());">
             <h1 id="h1_log">Come On In..!</h1>
             <fieldset id="inputs">
                 <input name="Uname" id="uname" type="text" placeholder="Username" autofocus>   

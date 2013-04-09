@@ -49,7 +49,7 @@
         </nav>
     </header>
     <article id="main_art">
-    <form id="contact_form" action="ContactServlet" name="contact_Form" onsubmit="return(validate());">
+    <form id="form" action="ContactServlet" name="contact_Form" onsubmit="return(validate());">
 	<% if (validUser == null){%>
 	<h1 id="h1_con">Log in to send Hungry Joe's a message..!</h1>
 	<%} else {%>

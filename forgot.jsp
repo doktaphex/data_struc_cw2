@@ -51,7 +51,7 @@
         </nav>
     </header>
     <article id="main_art">
-    <form id="forgot_form" name="forgot_Form" onsubmit="return(validate());">
+    <form id="form" name="forgot_Form" onsubmit="return(validate());">
             <h1 id="h1_forgot">You Forgot your Password..!<br>...You're Kidding Right..?</h1>
             <fieldset id="inputs">
                 <input name="Uname" id="uname" type="text" placeholder="Username" autofocus>   

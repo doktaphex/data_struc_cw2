@@ -51,7 +51,7 @@
         </nav>
     </header>
     <article id="main_art">
-    <form id="reg_form" action="register_action.jsp" name="register_Form" onsubmit="return(validate());">
+    <form id="form" action="register_action.jsp" name="register_Form" onsubmit="return(validate());">
             <h1 id="h1_reg">Join Us..!</h1>
             <fieldset id="inputs">
                 <input name="Uname" id="uname" type="text" placeholder="Username" autofocus>   
