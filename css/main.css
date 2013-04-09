@@ -27,7 +27,6 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	background-color:gold;
 	background:url(../images/food.jpg) top center no-repeat;
 	-webkit-background-size:100% 90%;
 	-moz-background-size:100% 90%;
@@ -88,6 +87,18 @@ header, section, footer, aside, nav, article, hgroup{
 	-o-box-shadow:7px 7px 20px black;
 	-transform:rotate(1.5deg);
 	-box-shadow:7px 7px 20px black;
+}
+
+#s_head{
+	margin-left:5%;
+	margin-right:auto;
+	padding:2%;
+	font-family:HamburgerHeavenRegular;
+	font-size:2em;
+	font-weight:bold;
+	color:brown;
+	border-radius:60px;
+	text-shadow:2px 2px 2px black;
 }
 
 #nav{
@@ -218,21 +229,17 @@ header, section, footer, aside, nav, article, hgroup{
 	text-shadow:1px 1px 3px red;
 }
 
-#login{
-	margin-top:3%;
-	margin-left:auto;
+#my_image{
+	float:left;
+	display:inline-block;
+	margin-left:10%;
 	margin-right:auto;
 	width:40%;
 	min-width:200px;
-	padding-top:4%;
-	padding-bottom:4%;
-	background-color:grey;
-	font-family:HamburgerHeavenRegular;
-	color:brown;
-	text-align:center;
+	background-color:white;
 	border-radius:150px;
-	border:20px double;
-	border-color:white;
+	border:30px double;
+	border-color:grey;
 	-webkit-transform:rotate(-3deg);
 	-webkit-box-shadow:10px 10px 20px black;
 	-moz-transform:rotate(-3deg);
@@ -243,57 +250,47 @@ header, section, footer, aside, nav, article, hgroup{
 	-box-shadow:10px 10px 20px black;
 }
 
-#contact_form{
-	margin-top:3%;
-	margin-left:auto;
-	margin-right:auto;
-	width:40%;
+#ingredients{
+	float:left;
+	display:inline-block;
+	padding:2%;
+	margin-left:-10%;
+	margin-right:10%;
+	width:38%;
 	min-width:200px;
-	padding-top:4%;
-	padding-bottom:4%;
-	background-color:grey;
-	font-family:HamburgerHeavenRegular;
-	color:brown;
-	text-align:center;
-	border-radius:150px;
-	border:20px double;
-	border-color:white;
-	-webkit-transform:rotate(-3deg);
-	-webkit-box-shadow:10px 10px 20px black;
-	-moz-transform:rotate(-3deg);
-	-moz-box-shadow:10px 10px 20px black;
-	-o-transform:rotate(-3deg);
-	-o-box-shadow:10px 10px 20px black;
-	-transform:rotate(-3deg);
-	-box-shadow:10px 10px 20px black;
+	background-color:white;
+	text-align:justify;
+	border-radius:60px;
+	border:10px solid;
+	border-color:brown;
+	-webkit-transform:rotate(1deg);
+	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(1deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(1deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(1deg);
+	-box-shadow:7px 7px 20px black;
 }
 
-#reg_form{
-	margin-top:3%;
-	margin-left:auto;
-	margin-right:auto;
-	width:40%;
+#method{
+	display:inline-block;
+	padding:5%;
+	margin-left:10%;
+	margin-right:10%;
 	min-width:200px;
-	padding-top:4%;
-	padding-bottom:4%;
-	background-color:grey;
-	font-family:HamburgerHeavenRegular;
-	color:brown;
-	text-align:center;
+	background-color:white;
+	text-align:justify;
 	border-radius:150px;
 	border:20px double;
-	border-color:white;
-	-webkit-transform:rotate(-3deg);
-	-webkit-box-shadow:10px 10px 20px black;
-	-moz-transform:rotate(-3deg);
-	-moz-box-shadow:10px 10px 20px black;
-	-o-transform:rotate(-3deg);
-	-o-box-shadow:10px 10px 20px black;
-	-transform:rotate(-3deg);
-	-box-shadow:10px 10px 20px black;
+	border-color:brown;
+	-webkit-box-shadow:7px 7px 20px black;
+	-moz-box-shadow:7px 7px 20px black;
+	-o-box-shadow:7px 7px 20px black;
+	-box-shadow:7px 7px 20px black;
 }
 
-#forgot_form{
+#form{
 	margin-top:3%;
 	margin-left:auto;
 	margin-right:auto;
@@ -352,12 +349,45 @@ header, section, footer, aside, nav, article, hgroup{
 	-transform:rotate(-3deg);
 }
 
+#display_page{
+	margin-left:auto;
+	margin-right:auto;
+	min-width:200px;
+	padding-bottom:4%;
+	font-family:HamburgerHeavenRegular;
+	color:brown;
+	text-align:center;
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	-transform:rotate(-3deg);
+}
+
 #main_art{
 	display:block;
 	background-color:white;
 	margin-top:-2%;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+#display{
+	display:block;
+	background-color:white;
+	margin-top:-3%;
+	margin-left:10%;
+	margin-right:10%;
+	border-radius:150px;
+	border:10px solid;
+	border-color:brown;
+	-webkit-transform:rotate(1deg);
+	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(1deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(1deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(1deg);
+	-box-shadow:7px 7px 20px black;
 }
 
 #h1_log{
@@ -418,6 +448,42 @@ header, section, footer, aside, nav, article, hgroup{
 	font-weight:bold;
 	color:brown;
 	text-shadow:2px 2px 2px black;
+}
+
+#h1_display{
+	padding:4%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	font-size:5em;
+	font-weight:bold;
+	color:brown;
+	text-shadow:2px 2px 2px black;
+}
+
+#h1_ing{
+	padding:1%;
+	display:inline-block;
+	font-family:HamburgerHeavenRegular;
+	font-size:2em;
+	font-weight:bold;
+	color:brown;
+	text-align:center;
+	text-shadow:2px 2px 2px black;
+}
+
+.list{
+	font-family:HamburgerHeavenRegular;
+	font-size:1.1em;
+	color:brown;
+	padding-left:20px;
+}
+
+#results{
+	font-family:HamburgerHeavenRegular;
+	font-size:1.1em;
+	color:brown;
+	margin-left:5%;
+	padding:2%;
 }
 
 #uname{
@@ -831,4 +897,107 @@ header, section, footer, aside, nav, article, hgroup{
     font-weight: normal;
     font-style: normal;
 
+}
+
+#error_site{
+	padding-top:4%;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	max-width:1100px;
+	height:100%;
+	background:url(../images/skull.jpg) center center no-repeat;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-background-size:100% 100%;
+}
+
+#error_head{
+	margin-left:30%;
+	margin-right:30%;
+	max-width:60%;
+	min-width:500px;
+	padding:4%;
+	background-color:white;
+	font-family:HamburgerHeavenRegular;
+	font-size:2.5em;
+	font-weight:bold;
+	color:brown;
+	text-align:center;
+	border-radius:180px;
+	border:20px double;
+	border-color:brown;
+	text-shadow:2px 2px 2px grey;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:10px 10px 20px black;
+}
+
+#er_head{
+	margin-top:-5%;
+	max-width:40%;
+	min-width:250px;
+	margin-left:15%;
+	margin-right:auto;
+	padding:2%;
+	background-color:brown;
+	font-family:HamburgerHeavenRegular;
+	font-size:2em;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	border-radius:80px;
+	border:10px solid;
+	border-color:white;
+	text-shadow:2px 2px 2px grey;
+	-webkit-transform:rotate(1.5deg);
+	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(1.5deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(1.5deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(1.5deg);
+	-box-shadow:7px 7px 20px black;
+}
+
+#e_head{
+	max-width:80%;
+	min-width:400px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:-1%;
+	padding:2%;
+	background-color:white;
+	font-family:HamburgerHeavenRegular;
+	font-size:3em;
+	font-weight:bold;
+	color:brown;
+	border-radius:140px;
+	border:50px solid;
+	border-color:grey;
+	text-align:center;
+	text-shadow:2px 2px 2px grey;
+	-webkit-transform:rotate(-3deg);
+	-webkit-box-shadow:7px 7px 20px black;
+	-moz-transform:rotate(-3deg);
+	-moz-box-shadow:7px 7px 20px black;
+	-o-transform:rotate(-3deg);
+	-o-box-shadow:7px 7px 20px black;
+	-transform:rotate(-3deg);
+	-box-shadow:7px 7px 20px black;
+}
+
+#e_footer{
+	margin-top:5%;
+	background-color:transparent;
+	font-family:HamburgerHeavenRegular;
+	color:brown;
+	text-shadow:1px 1px 1px black;
+	text-align:center;
 }
