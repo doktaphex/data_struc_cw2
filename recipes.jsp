@@ -64,6 +64,27 @@
 	    <%}%>
         </form>
     </article>
+    <!--needs to be hidden-->
+    <article id="display">
+	<h1 id="s_head">How's about these..?</h1>
+	<table id="results">
+	    <tr>
+		<td>result 1 part 1</td>
+		<td>result 1 part 2</td>
+		<td>result 1 part 3</td>
+	    </tr>
+	    <tr>
+		<td>result 2 part 1</td>
+		<td>result 2 part 2</td>
+		<td>result 2 part 3</td>
+	    </tr>
+	    <tr>
+		<td>result 3 part 1</td>
+		<td>result 3 part 2</td>
+		<td>result 3 part 3</td>
+	    </tr>
+	</table>
+    </article>
     <footer id="footer">
         &copy;2013 Jozef Kruszynski.
         <br>
