@@ -1,0 +1,21 @@
+<html>
+<header id="header">
+        <hgroup>
+            <h1 id="main_head">HUNGRY JOE'S</h1>
+            <h2 id="q_head">...lets eat..!</h2>
+        </hgroup>
+        <nav id="nav">
+            <ul>
+                <li id="home"><a href="index.jsp" <% if(pageName=="home"){%>class="currentPage"<%}; %>>home</a></li>
+                <li id="recipes"><a href="recipes.jsp" <% if(pageName=="recipes"){%>class="currentPage"<%}; %>>recipes</a></li>
+                <li id="contact"><a href="contact.jsp" <% if(pageName=="contact"){%>class="currentPage"<%}; %>>contact</a></li>
+            </ul>
+        </nav>
+        <nav id="nav_log">
+            <ul>
+		<li id="log"><% if (validUser == null){%><a href="login.jsp" <% if(pageName=="login"){%>class="currentPage"<%}; %>>log in</a><%} else {%><a href="logout.jsp"><%= Email%></a><%}%></li><br>
+                <li id="log"><% if (validUser == null){%><a href="register.jsp" <% if(pageName=="register"){%>class="currentPage"<%}; %>>register</a><%} else {%><a href="logout.jsp">log out</a><%}%></li>
+            </ul>
+        </nav>
+    </header>
+</html>

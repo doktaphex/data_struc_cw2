@@ -90,15 +90,18 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #s_head{
-	margin-left:5%;
+	margin-left:2%;
 	margin-right:auto;
 	padding:2%;
 	font-family:HamburgerHeavenRegular;
-	font-size:2em;
+	font-size:3em;
 	font-weight:bold;
 	color:brown;
-	border-radius:60px;
 	text-shadow:2px 2px 2px black;
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	-transform:rotate(-2deg);
 }
 
 #nav{
@@ -377,17 +380,18 @@ header, section, footer, aside, nav, article, hgroup{
 	margin-top:-3%;
 	margin-left:10%;
 	margin-right:10%;
-	border-radius:150px;
+	border-radius:75px;
 	border:10px solid;
 	border-color:brown;
-	-webkit-transform:rotate(1deg);
-	-webkit-box-shadow:7px 7px 20px black;
-	-moz-transform:rotate(1deg);
-	-moz-box-shadow:7px 7px 20px black;
-	-o-transform:rotate(1deg);
-	-o-box-shadow:7px 7px 20px black;
-	-transform:rotate(1deg);
-	-box-shadow:7px 7px 20px black;
+	-webkit-transform:rotate(2deg);
+	-webkit-box-shadow:10px 10px 20px black;
+	-moz-transform:rotate(2deg);
+	-moz-box-shadow:10px 10px 20px black;
+	-o-transform:rotate(2deg);
+	-o-box-shadow:10px 10px 20px black;
+	-transform:rotate(2deg);
+	-box-shadow:10px 10px 20px black;
+	
 }
 
 #h1_log{
@@ -479,11 +483,15 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 #results{
+	width:100%;
 	font-family:HamburgerHeavenRegular;
-	font-size:1.1em;
+	font-size:1.3em;
 	color:brown;
-	margin-left:5%;
 	padding:2%;
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	-transform:rotate(-2deg);
 }
 
 #uname{
@@ -1000,4 +1008,27 @@ header, section, footer, aside, nav, article, hgroup{
 	color:brown;
 	text-shadow:1px 1px 1px black;
 	text-align:center;
+}
+
+#t_head{
+	padding:2%;
+	font-family:HamburgerHeavenRegular;
+	font-size:1.5em;
+	font-weight:bold;
+	width:25%;
+	color:brown;
+	text-align:center;
+	text-shadow:2px 2px 2px black;
+}
+
+#t_results{
+	font-family:HamburgerHeavenRegular;
+	font-size:1.1em;
+	color:brown;
+	text-align:center;
+	padding:2%;
+}
+
+.currentPage{
+	border-bottom:3px solid brown;
 }

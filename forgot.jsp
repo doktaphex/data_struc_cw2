@@ -17,6 +17,7 @@
    String Email = (String)session.getAttribute("Email");
 %>
 
+<% String pageName="forgot"; %>
 <!DOCTYPE html>    
 <html lang="en">
 <head>
@@ -31,25 +32,7 @@
 <body id="body">
     
     <div id="site">
-    <header id="header">
-        <hgroup>
-            <h1 id="main_head">HUNGRY JOE'S</h1>
-            <h2 id="q_head">...lets eat..!</h2>
-        </hgroup>
-        <nav id="nav">
-            <ul>
-                <li id="home"><a href="index.jsp">home</a></li>
-                <li id="recipes"><a href="recipes.jsp">recipes</a></li>
-                <li id="contact"><a href="contact.jsp">contact</a></li>
-            </ul>
-        </nav>
-        <nav id="nav_log">
-            <ul>
-		<li id="log"><% if (validUser == null){%><a href="login.jsp">log in</a><%} else {%><a href="logout.jsp"><%= Email%></a><%}%></li><br>
-                <li id="log"><% if (validUser == null){%><a href="register.jsp">register</a><%} else {%><a href="logout.jsp">log out</a><%}%></li>
-            </ul>
-        </nav>
-    </header>
+    <%@ include file="/fragments/header.jspf" %>
     <article id="main_art">
     <form id="form" name="forgot_Form" onsubmit="return(validate());">
             <h1 id="h1_forgot">You Forgot your Password..!<br>...You're Kidding Right..?</h1>
@@ -62,13 +45,7 @@
             </fieldset>
         </form>
     </article>
-    <footer id="footer">
-        &copy;2013 Jozef Kruszynski.
-        <br>
-        <a href="http://www.w3.org/html/logo/">
-	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="HTML5 Powered" title="HTML5 Powered">
-	</a>
-    </footer>
+    <%@ include file="/fragments/footer.jspf" %>
     </div>
 </body>
 

@@ -27,7 +27,6 @@
 </head>
 
 <body id="error_site">
- <!--<div id="error_site">-->
  <h1 id="error_head">Golly bob darn it...<br>...Hungry Joe done gone messed somethin' up..!</h1>
  <h2 id="er_head">...Let's see what happened now..!</h2>
  <h3 id="e_head"><%= Error%></h3>
@@ -38,6 +37,5 @@
 	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="HTML5 Powered" title="HTML5 Powered">
 	</a>
     </footer>
-<!-- </div>
---></body>
+</body>
 </html>
